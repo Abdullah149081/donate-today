@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.main-btn {
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  height: 64px;
+  padding: 18px 24px;
+  color: #fff;
+  background-color: #ff5959;
+}
+.wrapper {
+  max-width: 1140px;
+  padding: 5% 15%;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 20px;
+}
+.donate-description {
+  width: 50%;
+  margin: auto;
+  color: #707070;
+}
+/* header style part  */
+.header {
+  background-image: url("../images/donation13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.header-container {
+}
+.header-content {
+  text-align: center;
+  padding: 10% 0;
+}
+.header-title {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.header-description {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Donate today start   */
+.amount-tk {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.tk {
+  background-color: #fafafa;
+  padding: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  border-radius: 5px;
+}
+.tk-child {
+  padding: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  background: #ffeeee;
+  color: #707070;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+.dn-sub-title {
+  color: #b3b3b3;
+  margin-bottom: 10px;
+}
+.hr-tag {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+/* Our Donate Plan  */
+.card {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 20px 200px;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #121212;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.card-description {
+  color: #707070;
+}
+.card-plan {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 60px 20px;
+}
+.card-plan-shelter {
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+  padding: 60px 20px;
+}
+.card-plan-edu {
+  background: #fff4d6;
+  border-radius: 5px;
+  padding: 60px 20px;
+}
+
+/* lives container  */
+.lives-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 200px;
+  gap: 50px;
+}
+.lives-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+.lives-description {
+  color: #707070;
+  margin-bottom: 20px;
+}
+.img-sectiocn img {
+  width: 456px;
+  height: 477px;
+  border-radius: 5px;
+}
+/* updates secttion  */
+.updates-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.updates-description {
+  margin-bottom: 30px;
+  width: 50%;
+  margin: 20px auto;
+  color: #707070;
+}
+.updates-form {
+  background: #fff4d6;
+  width: 500px;
+  margin: auto;
+  padding: 75px 190px;
+}
+input {
+  height: 38px;
+  padding: 14px 50px 14px 17px;
+  border: unset;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background: #0b0d17;
+}
+.footer-sec {
+  text-align: center;
+}
+.footer-title {
+  color: #ff5959;
+  font-size: 36px;
+  font-family: "Lobster", cursive;
+  padding: 45px 0;
+}
+.footer-description {
+  color: #d9dbe1;
+  padding-bottom: 45px;
+  font-size: 14px;
+}
